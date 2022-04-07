@@ -78,7 +78,7 @@ li a:hover{
 }
 
 .Developer{
-    background-image: url(Images/developer.jpg);
+    background-image: url(../Images/developer.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
