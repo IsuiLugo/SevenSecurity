@@ -1,0 +1,149 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7Tech</title>
+    <!-- Referencia al CSS -->
+    <link rel="stylesheet" href="/CSS/Style.css">
+</head>
+<body>
+    <header>
+            <h1>
+                Welcome to Seven Technology
+            </h1>    
+    </header>
+    <ul>
+        <li><a href="#About"><div class="Texto">About</div></a></li>
+        <li><a href="#Mision"><div class="Texto">Mission</div></a></li>
+        <li><a href="#Vision"><div class="Texto">Vision</div></a></li>
+        <li><a href="#Servicios"><div class="Texto">Servicies</div></a></li>
+        <li><a href="#Contacto"><div class="Texto">Contact</div></a></li>
+    </ul>
+
+    <!-- Sobre nosotros -->
+    <section id="About">
+        <div class="Presen">
+            <img src="/Images/7techLogo (1).png" alt="7techLogo" width="350" height="350">
+            <h2>
+                We are Seven Technology, a company focused on Cloud solutions, we work with tools such as Microsoft Azure or Amazon Web Servicies.
+            </h2>
+        </div>
+    </section>
+    <hr>
+    <!-- Mision -->
+    <section id="Mision">
+        <table>
+            <tr>
+                <th>
+                    <div class="Espacios">
+                        <h1>Misión</h1>
+                        <p>
+                            Nuestra misión es brindar soluciones basadas en Cloud Computing a las empresas
+                            sin importar su tamaño o giro, contando con un amplio portafolio de servicios y soluciones TI,
+                            seguro, sencillo, adoptado, para operar, administrar y gestionar la accesibilidad a la técnologica
+                            para todos nuestros clientes.
+                        </p>
+                    </div>
+                </th>
+                <th>
+                    <div class="Imagenes">
+                        <img src="/Images/office.jpg" alt="Mision" width="100%" height="80%">
+                    </div>
+                </th>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <!-- Vision -->
+    <section id="Vision">
+        <table>
+            <tr>
+                <th>
+                    <div class="Imagenes">
+                        <img src="/Images/team.jpg" alt="Visión" width="100%" height="80%">
+                    </div>
+                </th>
+                <th>
+                    <div class="Espacios">
+                        <h1>Visión</h1>
+                        <p>
+                            Buscamos porsicionarnos como una compañia que ofrece soluciones de Cloud Computing
+                            accesibles para todas las empresas, innovando su forma de trabajar, para lograr transformar
+                            el negocio y crear propuestas de valor, para nuestros clientes, mediante soluciones de nube
+                        </p>
+                    </div>
+                </th>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <!-- Servicios -->
+    <section id="Servicios">
+        <header><h1>Servicies</h1></header>
+        <section id="Develoment">
+            <div class="Developer">
+                <table>
+                    <tr>
+                        <th>
+                            <br>
+                            <h1 class="Espacios">DEVELOMENT</h1>
+                            <br>
+                            <img src="/Images/FullStack.png" alt="Logos" width="100%" height="80%">
+                        </th>
+                        <th>
+                           <p class="Espacios">
+                               Web Apps
+                           </p>
+                           <p class="Espacios">
+                               Ecomerce
+                           </p>
+                           <p class="Espacios">
+                               Enterprise Systems 
+                           </p>
+                        </th>
+                    </tr>
+                </table>
+            </div>    
+        </section>
+        <section id="Cloud" class="Cloud">   
+            <h1 class="Espacios">Cloud Computing Solutions</h1>
+                        <h1 class="Espacios">Microsoft Azure</h1>
+                        <img src="/Images/microsoft-azure-cloud-logo.png" alt="AzureLogo" width="40%" height="45%">
+                        <h1 class="Espacios">Amazon Web Servicies</h1>
+                        <img src="/Images/logo-aws-blanco.webp" alt="LogoAWS" width="40%" height="48%">
+        </section>
+     </section>
+     <hr>
+    <!-- Team -->
+    <section id="Team">
+        <header><h1>Our Team</h1></header>
+        <div class="Imagenes">
+            <img src="/Images/Org.png" alt="Organizacion" width="100%" height="150%">
+        </div>
+    </section>
+    <hr>
+    <!-- Contacto -->
+    <section id="Contacto">
+        <header><h1>Contact</h1></header>
+        <div class="Espacios">
+            <form method="post" action="/PHP/Metodos.php">
+                <label for="nombre">Nombre: </label>
+                <input type="text" name='nombre' id="nombre"> <br><br><br>
+                <label for="email">Email: </label>
+                <input type="email"  name='email' id="email"> <br><br><br>
+                <label for="exampleTextarea">Mensaje: </label>
+                <textarea name='mensaje' id="mensaje" rows="3"></textarea><br>
+                <button class="boton" type="submit">Enviar</button>
+        </form>
+            <h1>Haz clic para contactarnos por WhatsApp</h1>
+            <a href="https://wa.me/7713015382/?text=Hola%20Seven Technology" target="_blank">
+                <img src="/Images/WhatsApp-logo.png" alt="LogoWha" width="20%" height="17%">
+            </a>
+        </div>
+    </section>
+    <footer>
+        <h2>Web site by <a href="https://github.com/IsuiLugo">@IsuMartinez👨‍🚀</a></h2>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,163 @@
+header{
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+}
+
+body{
+    background-image:url(/Images/Mundo.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: whitesmoke;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+
+.Texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: black;
+}
+li{
+    float: left;
+}
+li a{
+   display: block; 
+   
+   color: whitesmoke;
+   padding: 16px;
+   text-decoration: none;
+}
+li a:hover{
+    
+    background-color: gray;
+}
+
+.Presen{
+    padding: 25px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+.Espacios{
+    margin: 60px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 22px;
+    padding: 40px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Imagenes{
+    padding: 50px;
+    text-align: center;
+}
+
+.Developer{
+    background-image: url(/Images/developer.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Cloud{
+    background-image: url(/Images/serversOn.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+table,
+th,
+td {
+  border: none;
+  table-layout: fixed;
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+thead th:nth-child(3) {
+  width: 35%;
+}
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+form{
+    margin: 0 auto;
+    width: 400px;
+    padding: 40px;
+    background-color: #0E3C8C;
+    border-radius: 22px;
+    text-align: center;
+    font: Helvetica;
+}
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color: whitesmoke;
+}
+input,textarea{
+    
+    font: arial;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #361e50;
+}
+textarea{
+    vertical-align: top;
+    height: 5em;
+}
+.boton{
+    margin: 5%;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 5px;
+    background-color: #361e50;
+    text-align: center;
+    font-style: Arial;
+    width: 150px;
+    height: 8%;
+}
+
+
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+    
+}
