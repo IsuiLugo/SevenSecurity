@@ -5,4 +5,4 @@ Desarrollamos está pagína Web para una practica corriendo atravéz de los serv
 Microsfot  Azure virtualizar una máquina con SO Windows Server 2012  
 Para otra práctica tambíen se utlizo para correr un servidor Apache desde Linux (Ubuntu)
 
-El Despliegue de la página Web se puede ver [aquí](github.com/IsuiLugo/SevenSecurity/Index.html)
+El Despliegue de la página Web se puede ver [aquí](https://isuilugo.github.io/SevenSecurity/Index)
